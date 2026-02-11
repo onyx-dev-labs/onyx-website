@@ -1,4 +1,4 @@
-# Onyx Dev Labs
+# NyxUs Dev
 
 ## Digital Command Node
 

@@ -180,7 +180,7 @@ export function CmsEditor({ initialConfig }: { initialConfig: any[] }) {
                 <Label htmlFor="footer_text" className="text-slate-200">Copyright Text</Label>
                 <Input 
                   id="footer_text" 
-                  value={formData['footer_text'] ?? "© 2024 Onyx Dev Labs. All systems operational."}
+                  value={formData['footer_text'] ?? "© 2024 NyxUs Dev. All systems operational."}
                   onChange={(e) => handleChange('footer_text', e.target.value)}
                   className="bg-navy-950 border-slate-700 text-white"
                 />
@@ -205,7 +205,7 @@ export function CmsEditor({ initialConfig }: { initialConfig: any[] }) {
               </div>
               <Button 
                 onClick={() => saveConfig('footer', {
-                  footer_text: "© 2024 Onyx Dev Labs. All systems operational.",
+                  footer_text: "© 2024 NyxUs Dev. All systems operational.",
                   footer_email: "hello@onyxdev.com",
                   footer_address: "123 Cyber Avenue, Neo Tokyo, NT 2077"
                 })} 
@@ -230,7 +230,7 @@ export function CmsEditor({ initialConfig }: { initialConfig: any[] }) {
                 <Label htmlFor="seo_title" className="text-slate-200">Default Page Title</Label>
                 <Input 
                   id="seo_title" 
-                  value={formData['seo_title'] ?? "Onyx Dev Labs | Digital Architect"}
+                  value={formData['seo_title'] ?? "NyxUs Dev | Digital Architect"}
                   onChange={(e) => handleChange('seo_title', e.target.value)}
                   className="bg-navy-950 border-slate-700 text-white"
                 />
@@ -246,7 +246,7 @@ export function CmsEditor({ initialConfig }: { initialConfig: any[] }) {
               </div>
               <Button 
                 onClick={() => saveConfig('seo', {
-                  seo_title: "Onyx Dev Labs | Digital Architect",
+                  seo_title: "NyxUs Dev | Digital Architect",
                   seo_description: "Premier digital agency specializing in high-performance web applications and data systems."
                 })}
                 disabled={isSaving}

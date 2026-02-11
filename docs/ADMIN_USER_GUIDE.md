@@ -1,6 +1,6 @@
 # Admin User Management Guide
 
-This guide details the complete workflow for adding new users to the Onyx Dev Labs admin panel, including security protocols, database operations, and frontend procedures.
+This guide details the complete workflow for adding new users to the NyxUs Dev admin panel, including security protocols, database operations, and frontend procedures.
 
 ## 1. Overview
 

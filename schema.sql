@@ -1,4 +1,4 @@
--- Onyx Dev Labs Database Schema
+-- NyxUs Dev Database Schema
 
 -- Enable UUID extension
 create extension if not exists "uuid-ossp";

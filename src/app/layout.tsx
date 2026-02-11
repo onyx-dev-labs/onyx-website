@@ -22,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 */
 
 export const metadata: Metadata = {
-  title: "Onyx Dev Labs | Forge Insight, Architect The Future",
+  title: "NyxUs Dev | Forge Insight, Architect The Future",
   description: "High-fidelity digital agency specializing in Web Architecture, Data Science, and Security. Founded by Edusei Mikel.",
   icons: {
     icon: "/icon.png",

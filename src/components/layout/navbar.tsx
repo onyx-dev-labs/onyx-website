@@ -12,7 +12,7 @@ export function Navbar() {
             <Image src="/icon.png" alt="Onyx Logo" width={32} height={32} className="object-contain" />
           </div>
           <span className="font-mono text-lg font-bold tracking-tight text-white">
-            Onyx Dev Labs
+            NyxUs Dev
           </span>
         </Link>
         <nav className="hidden gap-6 md:flex">

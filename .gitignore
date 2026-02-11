@@ -47,6 +47,11 @@ lerna-debug.log*
 .classpath
 .project
 
+# Configuration files (developer-specific)
+.eslintrc.json
+.prettierrc
+package-lock.json
+
 # OS
 Thumbs.db
 ehthumbs.db
